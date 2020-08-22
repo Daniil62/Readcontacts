@@ -26,10 +26,11 @@
         android:layout_marginBottom="4dp"
         android:layout_weight="1"
         android:ems="10"
-        android:hint="начните вводить имя"
+        android:hint="@string/start_entering"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="Autofill" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
